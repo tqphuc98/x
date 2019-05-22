@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài tập về trang login FB</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px auto;
+        }
+
+        #content {
+            height: 600px;
+            background-color: #D7D7D7;
+        }
+
+        #left-content {
+            width: 500px;
+            float: left;
+            height: 600px;
+        }
+
+        #right-content {
+            width: 500px;
+            float: left;
+            height: 600px;
+        }
+
+        h1 {
+            margin: 0px auto;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 3px;
+        }
+
+        #Ho {
+            display: inline-block;
+            width: 65px;
+            padding-right: 100px;
+        }
+
+        #Ten {
+            display: inline-block;
+            padding: 0px;
+        }
+
+        .input {
+            margin-top: 5px;
+            padding-right: 170px
+        }
+
+        a {
+            text-decoration: none;
+            color: #4b6c9c;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .button{
+            background-color:#69a74e;
+            padding: 10px 50px 10px 50px
+        }
+        .button a{
+            text-decoration: none;
+            color: white;
+            font-family: inherit;
+        }
+        
+        #footer{
+            height: 150px;
+            margin: 0px auto;
+        }
+        #footer ul li {
+            list-style: none;
+            display: inline;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+    
+        
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="left-content">
+            <h1>Đăng nhập gần đây</h1>
+            <p>Nhấp vào ảnh của bạn hoặc thêm tài khoản</p>
+            <img src="#">
+        </div>
+
+        <div id="right-content">
+            <h1>Tạo tài khoản mới</h1>
+            <p>Miễn phí và sẽ luôn như vậy</p>
+            <div class="input" id="Ho" class="input">
+                <input type="text" placeholder="Họ"></input>
+            </div>
+            <div class="input" id="Ten">
+                <input type="text" placeholder="Tên"></input>
+            </div><br>
+            <input class="input" type="text" placeholder="Số di động và Email"></input><br>
+            <input class="input" type="password" placeholder="Mật khẩu"></input>
+            <p>Ngày sinh</p>
+            <span>
+                <select title="Ngày">x</select>
+                <select title="Tháng">x</select>
+                <select title="Năm">x</select>
+            </span>
+            <a href="#">Tại sao tôi cần cung cấp ngày sinh của mình?</a><br>
+            <span class="sex">
+                <span>
+                    <input type="radio" name="sex">
+                    <label for="sex">Nữ</label>
+                </span>
+                <span>
+                    <input type="radio" name="sex">
+                    <label for="sex">Nam</label>
+                </span>
+            </span>
+            <p class="color" style="font-size: 12px;">Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#">Điều
+                    khoản</a>, <a href="#">Chính sách dữ liệu</a> và <a href="#">Chính sách cookie</a> của chúng tôi.
+                Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+                <button class="button"><a href="#">Đăng ký</a></button><hr>
+                <p style="font-size:13px"><a href="#">Tạo trang</a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp</p>
+
+
+        </div>
+    </div>
+    <div id="footer">
+        <ul>
+            <li>Tiếng Việt</li>
+            <li><a href="#">English(UK)</a></li>
+            <li><a href="#">中文(台灣)</a></li>
+            <li><a href="#">한국어</a></li>
+            <li><a href="#">日本語</a></li>
+            <li><a href="#">Français (France)</a></li>
+            <li><a href="#">ภาษาไทย</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Português (Brasil)</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">Italiano</a></li>
+        </ul><hr style="width: 800px">
+        <ul class="ketthuc">
+            <li><a href="#">Đăng ký</a></li>
+            <li><a href="#">Đăng nhập</a></li>
+            <li><a href="#">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="#"> bạ</a></li>
+            <li><a href="#">Trang cá nhân</a></li>
+            <li><a href="#">Trang</a></li>
+            <li><a href="#">Hạng mục Trang</a></li>
+            <li><a href="#">Sự kiện</a></li>
+            <li><a href="#">Địa điểm</a></li>
+            <li><a href="#">Trò chơi</a></li>
+            <li><a href="#">Vị trí</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Nhóm</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Địa phương</a></li>
+            <li><a href="#">Trang gây quỹ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Tạo quảng cáo</a></li>
+            <li><a href="#">Tạo Trang</a></li>
+            <li><a href="#">Nhà phát triển</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Quyền riêng tư</a></li>
+            <li><a href="#">Cookie</a></li>
+            <li><a href="#">Lựa chọn quảng cáo</a></li>
+            <li><a href="#">Điều khoản</a></li>
+            <li><a href="#">Bảo mật tài khoản</a></li>
+            <li><a href="#">Trợ giúp đăng nhập</a></li>
+            <li><a href="#">Trợ giúp</a></li>
+        </ul>
+        <p style="font-size: 10px; display:inline; margin-left: 40px">Facebook © 2019</p>
+        
+    </div>
+</body>
+
+</html>
